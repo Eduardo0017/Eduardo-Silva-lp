@@ -2,8 +2,8 @@ import 'Circulo.dart';
 
 void main(){
 
-  final Circulo circulosincolor = Circulo(radio:3);
-  final Circulo circuloazul = Circulo(radio:8, color´:'azul');
+  final Circulo circulosincolor = Circulo(3,'');
+  final Circulo circuloazul = Circulo(8,'azul');
   
   //circuloazul
   print('Área del círculo: ${circuloazul.calcularArea()}');
